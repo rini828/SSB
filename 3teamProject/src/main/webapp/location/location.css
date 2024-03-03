@@ -1,0 +1,30 @@
+main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 0px;
+	min-height: 100vh;  
+}
+.table {
+	border-collapse: collapse;
+	text-align: center;
+}
+.thead tr{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+.thead tr,.tbody tr{
+	border : 1px solid rgba(0,0,0,0.2);
+}
+.tbody tr{
+	height: 50px;
+}
+#moveButton{
+	padding: 10px 0 10px 0;
+	margin: 10px 0 20px 0;
+}
+#moveButton input[type='button'],input[type='submit']{
+	font-weight: bold;
+	height: 50px;
+	background-color: white;
+	border : 1px solid rgba(0,0,0,0.2);
+}

@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+
+ #calendar-container {
+  position: relative;
+  display: inline-block;
+}
+
+#calendar-popup {
+  position: absolute;
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1;
+}
+
+#calendar-popup table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#calendar-popup th, #calendar-popup td {
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#calendar-popup .current-month {
+  background-color: #e0e0e0;
+}
+
+
+.date{
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+.nav-btn{
+	padding: initial;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+}

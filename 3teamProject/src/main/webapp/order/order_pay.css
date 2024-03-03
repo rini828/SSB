@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#payButton:disabled {
+    opacity: 0.4; 
+    cursor: not-allowed; 
+}

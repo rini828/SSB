@@ -1,0 +1,58 @@
+#location_phone0 {
+	width: 30px;
+	text-align: center;
+}
+#location_phone1,#location_phone2 {
+	width: 36px;
+	text-align: center;
+}
+
+main {
+	width: 400px;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+table tr td input[type=text]{
+	width: 100%;
+	height: 1.5rem;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 5px 0;
+}
+#location_name {
+	width: 150px;
+}
+#locationButton {
+	font-weight: bold;
+	height: 27px;
+	background-color: white;
+	border : 1px solid rgba(0,0,0,0.2);
+}
+
+#sample6_detailAddress {
+	width: 100%;
+}
+#sample6_postcode{
+	width: 100px;
+}
+.button{
+	padding: 10px;
+	display: flex;
+}
+.button input{
+	margin: 5px;
+	font-weight: bold;
+	height: 27px;
+	background-color: black;
+	border : 1px solid rgba(0,0,0,0.2);
+	color: white;
+}
+.button input[value=등록]{
+	margin-left: auto;
+}
+.button input[value=취소]{
+	margin-right: 0;
+}
+#directInput{
+	width: 100%;
+}

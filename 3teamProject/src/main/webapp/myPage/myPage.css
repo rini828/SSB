@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+h1 {
+	margin-top: 50px; !important;
+	font-family: 'Arial', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.content-container {
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	margin-top: 200px;
+	position: relative;
+}
+
+.top-right-buttons {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-right-buttons button {
+	margin-bottom: px;
+	background-color: #aaaaaa;
+	font-size: 16px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+/* 새로운 스타일 */
+.right-section {
+	position: fixed;
+	top: 200px;
+	right: 10px;
+	/*     background-color: #fff; */
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* 버튼 토글 스타일 */
+.right-section button.menu-toggle {
+	margin-bottom: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #666;
+	border: none;
+	border-radius: 5px;
+}
+/* 새로운 스타일을 적용한 버튼에 대한 마우스 오버 효과 */
+.right-section button:hover {
+	background-color: #999;
+}
+
+/* 아코디언 버튼 스타일 */
+.accordion-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	transition: background 0.3s ease;
+}
+
+.accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.accordion-button.active {
+	background: #f9f9f9;
+}
+
+.accordion-button.active+.accordion-content {
+	max-height: 1000px;
+}
+
+.content-container p {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.content-container span {
+	display: inline-block;
+	/*     position: absolute; */
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* 회원탈퇴 버튼에 대한 스타일 */
+.content-container .withdrawal-button {
+	/*     position: fixed; */
+	bottom: 10px;
+	right: 10px;
+	border: none;
+	background-color: transparent;
+	font-size: 14px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+	opacity: 0.6;
+	font-weight: bold;
+}
+
+/* 스크롤이 300px 이상일 때 보이도록 설정 */
+body.scrolled .content-container .withdrawal-button {
+	display: inline-block;
+}
+
+/* order-list-styles.css */
+
+/* 주문 테이블 스타일 */
+.order-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.order-table th, .order-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+.order-table th {
+	background-color: #f2f2f2;
+}
+
+/* 주문 취소 버튼 스타일 */
+.cancel-button {
+	padding: 5px 10px;
+	background-color: #ff5c5c;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* 수정된 스타일 */
+.content-container .login-button {
+	border: 1px solid black;
+	background-color: #aaaaaa;
+	font-size: 15px;
+	cursor: pointer;
+	margin-top: 10px;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	position: fixed; /* 추가된 부분: 버튼을 고정시킴 */
+	top: 10px; /* 추가된 부분: 상단 여백 */
+	right: 10px; /* 추가된 부분: 오른쪽 여백 */
+}
+
+/* 마우스를 올렸을 때의 스타일 */
+.content-container .login-button:hover {
+	background-color: yellow;
+}

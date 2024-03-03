@@ -1,0 +1,42 @@
+main{
+	width: 500px;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.insertPopup{
+	padding: 10px;
+	display: flex;
+}
+.insertPopup input{
+	font-weight: bold;
+	height: 40px;
+	background-color: white;
+	border : 1px solid rgba(0,0,0,0.2);
+	margin: auto 0;
+	margin-left: auto;
+}
+.insertPopup h1{
+	margin-right: auto;
+}
+.locationItem{
+	padding: 10px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+.locationItemContent{
+	margin-top: 10px;
+}
+.locationItemButton{
+	margin-top: 10px;
+}
+.locationItemButton input{
+	font-weight: bold;
+	height: 40px;
+	background-color: white;
+	border : 1px solid rgba(0,0,0,0.2);
+}
+.locationItemButton .select{
+	float: right;
+	background-color: black;
+	color: white;
+}

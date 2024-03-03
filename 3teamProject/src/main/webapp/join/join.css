@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+
+.main-container {
+    text-align: center;
+    margin-top: 5%;
+/*     margin-left: 35%; */
+/*     margin-right: 35%; */
+    background-color: white;
+ 	padding-bottom: 50px;
+}
+
+.main-container img {
+    text-align: center;
+}
+
+
+
+.form-signin {
+    width: 480px;
+}
+
+.h3 {
+    text-align: left;
+}
+
+.form-control {
+    font-size: 14px; 
+}
+
+.logo{
+    width: 200px;
+    margin-top: 5%
+}
+
+.drag{
+    left: 0%;
+}
+.move-test-btn{
+  left :0px;
+  transition: 4000ms;
+}
+#test-btn{
+  position: fixed;
+  width: 20px;
+  height: 100px;
+  margin-top: 10%;
+  transition: 4000ms;
+}
+
+select.box {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  margin-left: 0px;
+  padding: 5px 0 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #d9d6d6;
+  color: #383838;
+  background-color: #ffffff;
+  font-family: 'Montserrat', 'Pretendard', sans-serif;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-input, .domain-input, .domain-select {
+    flex: 1;
+    margin-right: 5px;
+}
+
+
+.input-cc:not(:placeholder-shown) {
+    border: 1px solid skyblue;
+}
+
+.input-cc:focus {
+    z-index: 1; 
+}
+
+.form-floating font {
+    margin-right: 5px;
+}
+
+#buttons{
+	text-align: center; 
+	margin: 5% 0 10% 0; 
+	
+}

@@ -1,0 +1,362 @@
+
+
+#item > section {
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 30px 2% 0px 2%;
+    width: 97%;
+    position: relative;
+}
+
+
+#item > section > span > h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1em;
+    width: 11.5%;
+}
+
+
+#item > section > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+
+.search-bar {
+    text-align: left; 
+    width: 100%;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    padding: 5px;
+    width: 350px;
+    border: 1px solid #100f0f;
+    background-color: rgb(232, 230, 230);
+    border-radius: 2px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+#searchButton {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#addButton {
+	padding: 2px 10px; 
+    background-color: #f7ef0d; 
+    color: black; 
+    border: 1px solid black;
+    font-weight: bold;
+    line-height: 1.9em; 
+    font-size: 16px;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+#editButton {
+	padding: 2px 10px; 
+    background-color: #f0f0f0; 
+    color: rgb(0, 0, 0); 
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.9em; 
+    font-size: 16px;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#deleteButton {
+	margin-top : 20px;
+    padding: 2px 10px; 
+    background-color: rgb(0, 0, 0); 
+    color: #ffffff; 
+    border: none;
+    font-weight: bold;
+    line-height: 1.8em; 
+    font-size: 16px;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#deleteForm {
+	text-align: center;
+}
+
+#item > .list > .sort {
+    border-top: 2px solid black;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    table-layout:fixed; word-break:break-all;
+    margin-top: 6px;
+}
+
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+
+input[type="checkbox"]:checked + label {
+  color: red; 
+}
+
+
+#item > .list > .sort > thead {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+
+#item > .list > table .thumb > img { 
+    width: 50px; 
+}
+
+
+ #item > .list > table th {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+
+#item > .list > table td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+
+
+#item > .list > .paging a.on {
+    font-weight: bold;
+}
+
+
+#item > .list > .paging {
+    border-top: 2px solid black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#item > .list > .paging a {
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#item > .list > .paging > .num > a {
+    display: inline-block;
+    min-width: 14px;
+    margin: 0 3px;
+    padding: 5px 5px;
+    border: 1px solid #c4c4c4;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+/* ======================================================== */
+
+
+/*      body {
+      min-height: 100vh;
+      background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#1d466c));
+      background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+      background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+      background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+      background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+    } */
+
+body {
+  min-height: 100vh;
+  background: #3498db; 
+  background: -webkit-gradient(linear, left bottom, right top, from(#3498db), to(#2980b9));
+  background: -webkit-linear-gradient(bottom left, #3498db 0%, #2980b9 100%);
+  background: -moz-linear-gradient(bottom left, #3498db 0%, #2980b9 100%);
+  background: -o-linear-gradient(bottom left, #3498db 0%, #2980b9 100%);
+  background: linear-gradient(to top right, #3498db 0%, #2980b9 100%);
+}
+
+ .input-form-backgroud {
+    display: flex;
+	table-layout:fixed; word-break:break-all;
+  }
+  
+    .input-form {
+      max-width: 680px;
+      margin-top: 80px;
+      padding: 30px 50px 0px 50px;
+   	  font-weight : bold;
+
+      background: #fff;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
+    }
+    
+    .Add-form {
+    padding: 0 30px 40px 30px;
+    }
+    
+    .Add-A {
+    width: 18%;
+    }
+    .Add-B {
+    width: 70%;
+    margin-left: 35px;
+    margin-bottom: 14px;
+    }
+    .Add-C {
+    width: 50%;
+    margin-bottom: 14px;
+    }
+    .Add-D {
+    width: 30%;
+    }
+    .Add-E {
+    width: 30%;
+    margin-left: 20px;
+    }
+    .Add-F {
+    width: 30%;
+    margin-left: 20px;
+    }
+    .Add-G {
+    margin-top: 14px;
+    width: 45%;
+    margin-bottom: 30px;
+    }
+    .Add-H {
+    margin-top: 14px;
+    width: 45%;
+    margin-left: 40px;
+    }
+    
+    
+     select option[value=""][disabled] {
+	display: none;
+}
+	
+	
+.addTitle {
+  background: linear-gradient(to bottom, #3498db, #2980b9); /* 파란 배경 */
+  padding: 20px; /* 헤더 패딩 설정 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  color: #ffffff; /* 헤더 텍스트 색상 설정 */
+  font-size: 24px; /* 헤더 텍스트 크기 설정 */
+}
+
+	
+.addTitle {
+ /*    display: inline-block; */
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1em;
+    width: 100%;
+	margin-bottom: 30px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    /* border-bottom: 2px solid black; */
+}
+
+
+.filebox .upload-main .upload-sub .upload-logo {
+	margin-top: 40px;
+	margin-bottom: 10px;
+    display: inline-block;
+    height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid gray;
+    width: 50%;
+    color: #999999;
+}
+
+.filebox label {
+    display: inline-block;
+    padding: 2px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 30px;
+    widtj: 25px;
+    margin-left: 10px;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+
+/*
+h4{
+  color: #333;
+  border-bottom: 4px solid #a79600;
+  border-top: 4px solid #a79600;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+h4:before{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: #a79600 transparent transparent #a79600;
+}
+
+h4:after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 34px;
+  bottom: -20px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+} */
+
